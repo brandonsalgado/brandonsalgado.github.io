@@ -1,3 +1,35 @@
+
+h1 {
+  color:blue;
+  font-family:verdana;
+}
+
 p {
   color:red;
 }
+
+#id1 {
+  color:green;
+  text-align:center;
+}
+
+#id2 {
+  font-family: verdana;
+  color: purple;
+}
+
+.bluev {
+  color: blue;
+  font-family: verdana;
+}
+
+.center {
+  text-align:center;
+  color:red;
+}
+
+.bluev p {
+  color:red;
+  font-family: Comic Sans MS;
+}
+
