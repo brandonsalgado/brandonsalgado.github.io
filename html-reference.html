@@ -1,10 +1,270 @@
 <!DOCTYPE html>
 <html>
-<title>HTML Tutorial</title>
+<title>HTML Reference Page</title>
 <body>
 
-<h1>This is a heading to make one use <h1></h1></h1>
-<p>This is a paragraph.</p>
+<h1>HTML Reference Page</h1>
+
+<table>
+  <tr>
+    <th>Name</th>
+    <th>Start Tag</th>
+    <th>End Tag</th>
+    <th>Example</th>
+  </tr>
+  <tr>
+    <td><a href="#head">Head</a></td>
+    <td>&lthead&gt</td>
+    <td>&lt/head&gt</td>
+    <td>&lthead&gtHtml reference page&lt/head&gt</td>
+  </tr>
+  <tr>
+    <td><a href="#heading">Heading</a></td>
+    <td>&lth1&gt</td>
+    <td>&lt/h1&gt</td>
+    <td>&lth1&gtReference Page&lt/h1&gt</td>
+  </tr>
+  <tr>
+    <td><a href="#html">HTML</a></td>
+    <td>&lthtml&gt</td>
+    <td>&lt/html&gt</td>
+    <td>&lthtml&gtWhole Page&lt/html&gt</td>
+  </tr>
+  <tr>
+    <td><a href="#title">Title</a></td>
+    <td>&lttitle&gt</td>
+    <td>&lt/title&gt</td>
+    <td>&lttitle&gtHTML Reference Page&lt/title&gt</td>
+  </tr>
+  <tr>
+    <td><a href="#body">Body</a></td>
+    <td>&ltbody&gt</td>
+    <td>&lt/body&gt</td>
+    <td>&ltbody&gtWhole Page&lt/body&gt</td>
+  </tr>
+  <tr>
+    <td><a href="#paragraph">Paragraph</a></td>
+    <td>&ltp&gt</td>
+    <td>&lt/p&gt</td>
+    <td>&ltp&gtAny text&lt/p&gt</td>
+  </tr>
+  <tr>
+    <td><a href="#break">Break</a></td>
+    <td>&ltbr&gt</td>
+    <td>None</td>
+    <td>None</td>
+  </tr>
+  <tr>
+    <td><a href="#line">Line</td>
+    <td>&lthr&gt</td>
+    <td>None</td>
+    <td>None</td>
+  </tr>
+  <tr>
+    <td><a href="#comments">Comments</a></td>
+    <td>&lt!--</td>
+    <td>--&gt</td>
+    <td>&lt!--Hey--&gt</td>
+  </tr>
+  <tr>
+    <td><a href="#links">Links</a></td>
+    <td>&lta&gt</td>
+    <td>&lt/a&gt</td>
+    <td>&lta href="url"&gtLink Text&lt/a&gt</td>
+  </tr>
+  <tr>
+    <td><a href="#images">Images</a></td>
+    <td>&ltimg&gt</td>
+    <td>None</td>
+    <td>&ltimg src="url"&gt</td>
+  </tr>
+  <tr>
+    <td><a href="#lists">Lists</a></td>
+    <td>&ltol&gt &ltul&gt &ltli&gt</td>
+    <td>&lt/ol&gt &lt/ul&gt &lt/li&gt</td>
+    <td>&ltul&gt &ltli&gtFood&lt/li&gt</td>
+  </tr>
+  <tr>
+    <td><a href="#tables">Tables</a></td>
+    <td>&lttable&gt &lttr&gt &lttd&gt &ltth&gt</td>
+    <td>&lt/table&gt &lt/tr&gt &lt/td&gt &lt/th&gt</td>
+    <td>This</td>
+  </tr>
+  <tr>
+    <td><a href="#blocks">Blocks</a></td>
+    <td>&ltdiv&gt</td>
+    <td>&lt/div&gt</td>
+    <td>&ltdiv&gtHey&lt/div&gt</td>
+  </tr>
+</table>
+
+<h2 id="heading">Heading Element</h2>
+  <h3>Description</h3>
+    <p>Heading is used to make bigger, more bold titles</p>
+  <h3>Syntax</h3>
+    <p>Start tag: &lth1&gt <br> Content: Text <br> End tag: &lt/h1&gt</p>
+  <h3>Example</h3>
+    <p>&lth1&gt I love ECS!&lt/h1&gt</p>
+  <h3>Display</h3>
+    <p>I love ECS!</p>
+    
+<hr>
+
+<h2 id="head">Head Element</h2>
+  <h3>Description</h3>
+    <p>The head element is used to make a title for the page</p>
+  <h3>Syntax</h3>
+    <p>Start tag: &lthead&gt <br> Content: Text <br> End tag: &lt/head&gt</p>
+  <h3>Example</h3>
+    <p>&lthead&gt I love ECS!&lt/head&gt</p>
+  <h3>Display</h3>
+    <p>I love ECS!</p>
+    
+<hr>
+
+<h2 id="html">HTML Element</h2>
+  <h3>Description</h3>
+    <p>Used to initiate an html document</p>
+  <h3>Syntax</h3>
+    <p>Start tag: &lthtml&gt <br> Content: The whole page <br> End tag: &lt/html&gt</p>
+  <h3>Example</h3>
+    <p>&lthtml&gt <br> &ltbody&gt <br> &lth1&gt <br> Text <br> &lt/h1&gt <br> &lt/body&gt <br>  &lt/html&gt</p>
+  <h3>Display</h3>
+    <p>Text</p>
+    
+<hr>
+
+<h2 id="title">Title Element</h2>
+  <h3>Description</h3>
+    <p>Names the Webpage. Shown on the tab</p>
+  <h3>Syntax</h3>
+    <p>Start tag: &lttitle&gt <br> Content: Name of the webpage <br> End tag: &lt/title&gt</p>
+  <h3>Example</h3>
+    <p>&lthtml&gt <br> &lttitle&gt <br> Websites! <br> &lt/title&gt <br>  &lt/html&gt</p>
+  <h3>Display</h3>
+    <p>Websites! (in tab)</p>
+    
+<hr>
+
+<h2 id="body">Body Element</h2>
+  <h3>Description</h3>
+    <p>The body is used to type your content into</p>
+  <h3>Syntax</h3>
+    <p>Start tag: &ltbody&gt <br> Content: Everything that you want to show up on your website <br> End tag: &lt/body&gt</p>
+  <h3>Example</h3>
+    <p>&ltbody&gt <br> &lth1&gt <br> I love work <br> &lt/h1&gt <br> &lt/body&gt</p>
+  <h3>Display</h3>
+    <p>I love work</p>
+    
+<hr>
+
+<h2 id="paragraph">Paragraph Element</h2>
+  <h3>Description</h3>
+    <p>Used for basic writing</p>
+  <h3>Syntax</h3>
+    <p>Start tag: &ltp&gt <br> Content: Text <br> End tag: &lt/p&gt</p>
+  <h3>Example</h3>
+    <p>&ltp&gtLacrosse is great&lt/p&gt</p>
+  <h3>Display</h3>
+    <p>Lacrosse is great</p>
+    
+<hr>
+
+<h2 id="break">Break Element</h2>
+  <h3>Description</h3>
+    <p>Used for breaking up text (pressing enter or return)</p>
+  <h3>Syntax</h3>
+    <p>Start tag: &ltbr&gt <br> Content: Nothing <br> End tag: No end tag</p>
+  <h3>Example</h3>
+    <p>Lacrosse &ltbr&gt is &ltbr&gt great</p>
+  <h3>Display</h3>
+    <p>Lacrosse <br> is <br> great</p>
+    
+<hr>
+
+<h2 id="line">Line Element</h2>
+  <h3>Description</h3>
+    <p>Used to make a line</p>
+  <h3>Syntax</h3>
+    <p>Start tag: &lthr&gt <br> Content: Nothing <br> End tag: No end tag</p>
+  <h3>Example</h3>
+    <p>Lacrosse &lthr&gt is &lthr&gt great</p>
+  <h3>Display</h3>
+    <p>Lacrosse <hr> is <hr> great</p>
+    
+<hr>
+
+<h2 id="comments">Comments </h2>
+  <h3>Description</h3>
+    <p>Used to write something in the code that the users can't see</p>
+  <h3>Syntax</h3>
+    <p>Start tag: &lt!-- <br> Content: Your text <br> End tag: --&gt</p>
+  <h3>Example</h3>
+    <p>&lt!-- Hey look --&gt</p>
+  <h3>Display</h3>
+    <p>(nothing)</p>
+    
+<hr>
+
+<h2 id="links">Links</h2>
+  <h3>Description</h3>
+    <p>Used to reference other websites. (Clickable link)</p>
+  <h3>Syntax</h3>
+    <p>Start tag: &lta href= <br> Content: Your link <br> End tag: &gt(Text for link)&lt/a&gt </p>
+  <h3>Example</h3>
+    <p>&lta href="www.farmersonly.com"&gtLink&lt/a&gt</p>
+  <h3>Display</h3>
+    <p><a href="www.farmersonly.com">Link</a></p>
+    
+<hr>
+
+<h2 id="images">Images</h2>
+  <h3>Description</h3>
+    <p>Used to make images in your website</p>
+  <h3>Syntax</h3>
+    <p>Start tag: &ltimg src=" <br> Content: Your link <br> End tag: &gt </p>
+  <h3>Example</h3>
+    <p>&ltimg src="https://c2.staticflickr.com/4/3230/2702131654_4679026c2c_z.jpg?zz=1"&gt</p>
+  <h3>Display</h3>
+    <p><img src="https://c2.staticflickr.com/4/3230/2702131654_4679026c2c_z.jpg?zz=1"></p>
+    
+<hr>
+
+<h2 id="lists">Lists</h2>
+  <h3>Description</h3>
+    <p>Used to make different lists</p>
+  <h3>Syntax</h3>
+    <p>Start tags: &ltul&gt (bullets), &ltol&gt (numbered items) <br> Content: &ltli&gt(item)&lt/li&gt <br> End tags: &lt/ul&gt, &lt/ol&gt</p>
+  <h3>Example</h3>
+    <p>&ltul&gt <br> &ltli&gtApple&lt/li&gt <br> &ltli&gtCarrot&lt/li&gt <br> &ltli&gtother food&lt/li&gt <br> &lt/ul&gt </p>
+  <h3>Display</h3>
+    <p><ul> <li>Apple</li> <li>Carrot</li> <li>Other Food</li></ul></p>
+    
+<hr>
+
+<h2 id="tables">Tables</h2>
+  <h3>Description</h3>
+    <p>Used to make tables within a website</p>
+  <h3>Syntax</h3>
+    <p>Start tag: &lttable&gt(defining the table) <br> Content: &lttr&gt(inside have the header and data)&lt/tr&gt(table row), &lttd&gt(data)&lt/td&gt (table data), &ltth&gt(header)&ltth&gt(table header) <br> End tag: &lt/ul&gt, &lt/ol&gt</p>
+  <h3>Example</h3>
+    <p>&lttable&gt <br>  &lttr&gt <br>   &ltth&gtFirstname&lt/th&gt <br>   &ltth&gtLastname&lt/th&gt <br>  &lt/tr&gt <br> &lttr&gt <br> &lttd&gtJill&lt/td&gt <br> &lttd&gtSmith&lt/td&gt <br> &lt/tr&gt</p>
+  <h3>Display</h3>
+    <p><table> <tr><th>Firstname</th><th>Lastname</th></tr><tr><td>Jill</td><td>Smith</td></tr></table></p>
+    
+<hr>
+
+<h2 id="blocks">Blocks</h2>
+  <h3>Description</h3>
+    <p>Used to make sections of text that can be styled all together they will be on different lines</p>
+  <h3>Syntax</h3>
+    <p>Start tag: &ltdiv&gt <br> Content: Anything you want in the block <br> End tag: &lt/div&gt</p>
+  <h3>Example</h3>
+    <p>&ltdiv&gtHello&lt/div&gt &ltdiv&gtWorld&lt/div&gt</p>
+  <h3>Display</h3>
+    <p><div>Hello</div> <div>World</div></p>
+    
+<hr>
 
 </body>
 </html>
