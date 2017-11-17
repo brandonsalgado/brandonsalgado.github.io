@@ -10,9 +10,14 @@ body {
   margin: 0;
 }
 
+img {
+  width: 2000px;
+  Height: 200px;
+}
+
 /* Style the header */
 .header {
-    background-color: #f1f1f1;
+    background-color: #bad3fc;
     padding: 20px;
     text-align: center;
 }
@@ -85,4 +90,15 @@ body {
     background-color: #f1f1f1;
     padding: 10px;
     text-align: center;
+}
+object {
+  align-content: center;
+}
+.danny {
+  padding: 10px;
+  voice-volume: silent;
+}
+.danny:hover {
+  padding: 10px;
+  voice-volume: medium;
 }
